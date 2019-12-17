@@ -1,0 +1,9 @@
+#!bin/bash
+
+echo I am here 
+
+cp -Rf /tmp/src/*.php ./
+
+echo page created on $(date +%F) >> info.html
+
+echo I am done
